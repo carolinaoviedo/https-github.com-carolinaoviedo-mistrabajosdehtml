@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de registro</title>
+        <link rel="stylesheet" href="./styleformulario.css">
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+
+            <form class="form">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" value="">
+                </div>
+
+                <div>
+                    <label for="genero">Genero:</label>
+                        <input type="radio" id="genero" name="genero" value="Mujer">Mujer
+                        <input type="radio" id="genero" name="genero" value="Hombre">Hombre
+                        <input type="radio" id="genero" name="genero" value="Otros">Otros
+                </div>
+
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input typt="text" id="correo" name="correo" value="">
+                </div>
+
+                <div>
+                    <label for="ciudad">Ciudad:</label>
+
+                    <select name="ciudad" id="ciudad">
+                        <option value="" selected> Rosario</option>
+                        <option value="roldan" selected>Roldan</option>
+                        <option value="rosario" selected>Rosario</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="descripcion"> Descripcion:</label><br>
+                    <textarea name="descripcion" id="descripcion"></textarea>
+                </div>
+
+                <div>
+                    <label for=""></label>
+                    <input type="checkbox" id="" name="Deseo recibir informacion sobre novedades y ofertas">Deseo recibir informacion sobre novedades y ofertas<br>
+                    <input type="checkbox" id="" name="Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la proteccion de datos">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la proteccion de datos
+                </div>
+
+                <div>         
+			        <input type="submit" name="enviar" value="Enviar">
+                </div>
+
+            </form>
+
+    </body>
+</html>
